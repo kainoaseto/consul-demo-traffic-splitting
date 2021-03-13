@@ -16,4 +16,8 @@ ports {
   grpc = 8502
 }
 
+telemetry { 
+  disable_compat_1.9 = true 
+}
+
 enable_central_service_config = true
